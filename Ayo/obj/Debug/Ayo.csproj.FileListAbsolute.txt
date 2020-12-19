@@ -1,0 +1,7 @@
+C:\Documents and Settings\web master\My Documents\Visual Studio 2008\Projects\ConsoleAyo\Ayo\bin\Debug\Ayo.dll
+C:\Documents and Settings\web master\My Documents\Visual Studio 2008\Projects\ConsoleAyo\Ayo\bin\Debug\Ayo.pdb
+C:\Documents and Settings\web master\My Documents\Visual Studio 2008\Projects\ConsoleAyo\Ayo\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\web master\My Documents\Visual Studio 2008\Projects\ConsoleAyo\Ayo\obj\Debug\Ayo.dll
+C:\Documents and Settings\web master\My Documents\Visual Studio 2008\Projects\ConsoleAyo\Ayo\obj\Debug\Ayo.pdb
+C:\Documents and Settings\web master\My Documents\Visual Studio 2008\Projects\ConsoleAyo\Ayo\bin\Debug\Ayo.dll.CodeAnalysisLog.xml
+C:\Documents and Settings\web master\My Documents\Visual Studio 2008\Projects\ConsoleAyo\Ayo\bin\Debug\Ayo.dll.lastcodeanalysissucceeded

@@ -1,0 +1,7 @@
+C:\Documents and Settings\web master\My Documents\Visual Studio 2008\Projects\ConsoleAyo\ConsoleAyo\bin\Debug\ConsoleAyo.exe
+C:\Documents and Settings\web master\My Documents\Visual Studio 2008\Projects\ConsoleAyo\ConsoleAyo\bin\Debug\ConsoleAyo.pdb
+C:\Documents and Settings\web master\My Documents\Visual Studio 2008\Projects\ConsoleAyo\ConsoleAyo\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\web master\My Documents\Visual Studio 2008\Projects\ConsoleAyo\ConsoleAyo\obj\Debug\ConsoleAyo.exe
+C:\Documents and Settings\web master\My Documents\Visual Studio 2008\Projects\ConsoleAyo\ConsoleAyo\obj\Debug\ConsoleAyo.pdb
+C:\Documents and Settings\web master\My Documents\Visual Studio 2008\Projects\ConsoleAyo\ConsoleAyo\bin\Debug\Ayo.dll
+C:\Documents and Settings\web master\My Documents\Visual Studio 2008\Projects\ConsoleAyo\ConsoleAyo\bin\Debug\Ayo.pdb

@@ -1,0 +1,15 @@
+C:\Documents and Settings\web master\My Documents\Visual Studio 2008\Projects\ConsoleAyo\WindowsAyo\bin\Debug\WindowsAyo.exe
+C:\Documents and Settings\web master\My Documents\Visual Studio 2008\Projects\ConsoleAyo\WindowsAyo\bin\Debug\WindowsAyo.pdb
+C:\Documents and Settings\web master\My Documents\Visual Studio 2008\Projects\ConsoleAyo\WindowsAyo\bin\Debug\Ayo.dll
+C:\Documents and Settings\web master\My Documents\Visual Studio 2008\Projects\ConsoleAyo\WindowsAyo\bin\Debug\Ayo.pdb
+C:\Documents and Settings\web master\My Documents\Visual Studio 2008\Projects\ConsoleAyo\WindowsAyo\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\web master\My Documents\Visual Studio 2008\Projects\ConsoleAyo\WindowsAyo\obj\Debug\Window1.baml
+C:\Documents and Settings\web master\My Documents\Visual Studio 2008\Projects\ConsoleAyo\WindowsAyo\obj\Debug\Window1.g.cs
+C:\Documents and Settings\web master\My Documents\Visual Studio 2008\Projects\ConsoleAyo\WindowsAyo\obj\Debug\App.g.cs
+C:\Documents and Settings\web master\My Documents\Visual Studio 2008\Projects\ConsoleAyo\WindowsAyo\obj\Debug\WindowsAyo_MarkupCompile.cache
+C:\Documents and Settings\web master\My Documents\Visual Studio 2008\Projects\ConsoleAyo\WindowsAyo\obj\Debug\WindowsAyo.g.resources
+C:\Documents and Settings\web master\My Documents\Visual Studio 2008\Projects\ConsoleAyo\WindowsAyo\obj\Debug\WindowsAyo.Properties.Resources.resources
+C:\Documents and Settings\web master\My Documents\Visual Studio 2008\Projects\ConsoleAyo\WindowsAyo\obj\Debug\WindowsAyo.csproj.GenerateResource.Cache
+C:\Documents and Settings\web master\My Documents\Visual Studio 2008\Projects\ConsoleAyo\WindowsAyo\obj\Debug\WindowsAyo.exe
+C:\Documents and Settings\web master\My Documents\Visual Studio 2008\Projects\ConsoleAyo\WindowsAyo\obj\Debug\WindowsAyo.pdb
+C:\Documents and Settings\web master\My Documents\Visual Studio 2008\Projects\ConsoleAyo\WindowsAyo\bin\Debug\WindowsAyo.exe.config

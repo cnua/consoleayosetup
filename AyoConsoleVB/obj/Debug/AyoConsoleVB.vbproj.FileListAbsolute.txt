@@ -1,0 +1,11 @@
+C:\Documents and Settings\web master\My Documents\Visual Studio 2008\Projects\ConsoleAyo\AyoConsoleVB\bin\Debug\AyoConsoleVB.exe
+C:\Documents and Settings\web master\My Documents\Visual Studio 2008\Projects\ConsoleAyo\AyoConsoleVB\bin\Debug\AyoConsoleVB.pdb
+C:\Documents and Settings\web master\My Documents\Visual Studio 2008\Projects\ConsoleAyo\AyoConsoleVB\bin\Debug\AyoConsoleVB.xml
+C:\Documents and Settings\web master\My Documents\Visual Studio 2008\Projects\ConsoleAyo\AyoConsoleVB\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\web master\My Documents\Visual Studio 2008\Projects\ConsoleAyo\AyoConsoleVB\obj\Debug\AyoConsoleVB.Resources.resources
+C:\Documents and Settings\web master\My Documents\Visual Studio 2008\Projects\ConsoleAyo\AyoConsoleVB\obj\Debug\AyoConsoleVB.vbproj.GenerateResource.Cache
+C:\Documents and Settings\web master\My Documents\Visual Studio 2008\Projects\ConsoleAyo\AyoConsoleVB\obj\Debug\AyoConsoleVB.exe
+C:\Documents and Settings\web master\My Documents\Visual Studio 2008\Projects\ConsoleAyo\AyoConsoleVB\obj\Debug\AyoConsoleVB.xml
+C:\Documents and Settings\web master\My Documents\Visual Studio 2008\Projects\ConsoleAyo\AyoConsoleVB\obj\Debug\AyoConsoleVB.pdb
+C:\Documents and Settings\web master\My Documents\Visual Studio 2008\Projects\ConsoleAyo\AyoConsoleVB\bin\Debug\Ayo.dll
+C:\Documents and Settings\web master\My Documents\Visual Studio 2008\Projects\ConsoleAyo\AyoConsoleVB\bin\Debug\Ayo.pdb

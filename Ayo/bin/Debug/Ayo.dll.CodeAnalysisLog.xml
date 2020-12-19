@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files\microsoft visual studio 9.0\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="1.36">
+ <Targets>
+  <Target Name="C:\Documents and Settings\web master\My Documents\Visual Studio 2008\Projects\ConsoleAyo\Ayo\bin\Debug\Ayo.dll">
+   <Modules>
+    <Module Name="ayo.dll">
+     <Messages>
+      <Message TypeName="AssembliesShouldHaveValidStrongNames" Category="Microsoft.Design" CheckId="CA2210" Status="Active" Created="2009-07-29 21:06:01Z" FixCategory="NonBreaking">
+       <Issue Name="NoStrongName" Certainty="95" Level="CriticalError">Sign 'Ayo.dll' with a strong name key.</Issue>
+      </Message>
+      <Message TypeName="MarkAssembliesWithClsCompliant" Category="Microsoft.Design" CheckId="CA1014" Status="Active" Created="2009-07-29 21:06:01Z" FixCategory="NonBreaking">
+       <Issue Certainty="95" Level="Error">Mark 'Ayo.dll' with CLSCompliant(true) because it exposes externally visible types.</Issue>
+      </Message>
+     </Messages>
+     <Namespaces>
+      <Namespace Name="Ayo">
+       <Types>
+        <Type Name="AyoGame" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Accumulator" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="PropertiesShouldNotReturnArrays" Category="Microsoft.Performance" CheckId="CA1819" Status="Active" Created="2009-07-29 21:06:01Z" FixCategory="Breaking">
+             <Issue Certainty="50" Level="Warning" Path="C:\Documents and Settings\web master\My Documents\Visual Studio 2008\Projects\ConsoleAyo\Ayo" File="Ayo.cs" Line="572">Change 'AyoGame.Accumulator' to return a collection or make it a method.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Board" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="PropertiesShouldNotReturnArrays" Category="Microsoft.Performance" CheckId="CA1819" Status="Active" Created="2009-07-29 21:06:01Z" FixCategory="Breaking">
+             <Issue Certainty="50" Level="Warning" Path="C:\Documents and Settings\web master\My Documents\Visual Studio 2008\Projects\ConsoleAyo\Ayo" File="Ayo.cs" Line="579">Change 'AyoGame.Board' to return a collection or make it a method.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#clone()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="clone" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2009-07-29 21:06:01Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\Documents and Settings\web master\My Documents\Visual Studio 2008\Projects\ConsoleAyo\Ayo" File="Ayo.cs" Line="530">Correct the casing of 'clone' in member name 'AyoGame.clone()' by changing it to 'Clone'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ComputeriseTurn_ComputerVsPlayer()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Vs" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2009-07-29 21:06:01Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\Documents and Settings\web master\My Documents\Visual Studio 2008\Projects\ConsoleAyo\Ayo" File="Ayo.cs" Line="175">Correct the casing of 'Vs' in member name 'AyoGame.ComputeriseTurn_ComputerVsPlayer()' by changing it to 'VS'.</Issue>
+            </Message>
+            <Message Id="Computerise" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2009-07-29 21:06:01Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning" Path="C:\Documents and Settings\web master\My Documents\Visual Studio 2008\Projects\ConsoleAyo\Ayo" File="Ayo.cs" Line="175">Correct the spelling of 'Computerise' in member name 'AyoGame.ComputeriseTurn_ComputerVsPlayer()' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2009-07-29 21:06:01Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error" Path="C:\Documents and Settings\web master\My Documents\Visual Studio 2008\Projects\ConsoleAyo\Ayo" File="Ayo.cs" Line="175">Remove the underscores from member name 'AyoGame.ComputeriseTurn_ComputerVsPlayer()'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ComputeriseTurn_PlayerVsComputer()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Vs" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2009-07-29 21:06:01Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\Documents and Settings\web master\My Documents\Visual Studio 2008\Projects\ConsoleAyo\Ayo" File="Ayo.cs" Line="139">Correct the casing of 'Vs' in member name 'AyoGame.ComputeriseTurn_PlayerVsComputer()' by changing it to 'VS'.</Issue>
+            </Message>
+            <Message Id="Computerise" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2009-07-29 21:06:01Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning" Path="C:\Documents and Settings\web master\My Documents\Visual Studio 2008\Projects\ConsoleAyo\Ayo" File="Ayo.cs" Line="139">Correct the spelling of 'Computerise' in member name 'AyoGame.ComputeriseTurn_PlayerVsComputer()' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2009-07-29 21:06:01Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error" Path="C:\Documents and Settings\web master\My Documents\Visual Studio 2008\Projects\ConsoleAyo\Ayo" File="Ayo.cs" Line="139">Remove the underscores from member name 'AyoGame.ComputeriseTurn_PlayerVsComputer()'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ComputeriseTurnL2_ComputerVsPlayer()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Vs" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2009-07-29 21:06:01Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\Documents and Settings\web master\My Documents\Visual Studio 2008\Projects\ConsoleAyo\Ayo" File="Ayo.cs" Line="311">Correct the casing of 'Vs' in member name 'AyoGame.ComputeriseTurnL2_ComputerVsPlayer()' by changing it to 'VS'.</Issue>
+            </Message>
+            <Message Id="Computerise" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2009-07-29 21:06:01Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning" Path="C:\Documents and Settings\web master\My Documents\Visual Studio 2008\Projects\ConsoleAyo\Ayo" File="Ayo.cs" Line="311">Correct the spelling of 'Computerise' in member name 'AyoGame.ComputeriseTurnL2_ComputerVsPlayer()' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2009-07-29 21:06:01Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error" Path="C:\Documents and Settings\web master\My Documents\Visual Studio 2008\Projects\ConsoleAyo\Ayo" File="Ayo.cs" Line="311">Remove the underscores from member name 'AyoGame.ComputeriseTurnL2_ComputerVsPlayer()'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ComputeriseTurnL2_PlayerVsComputer()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Vs" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2009-07-29 21:06:01Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\Documents and Settings\web master\My Documents\Visual Studio 2008\Projects\ConsoleAyo\Ayo" File="Ayo.cs" Line="211">Correct the casing of 'Vs' in member name 'AyoGame.ComputeriseTurnL2_PlayerVsComputer()' by changing it to 'VS'.</Issue>
+            </Message>
+            <Message Id="Computerise" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2009-07-29 21:06:01Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning" Path="C:\Documents and Settings\web master\My Documents\Visual Studio 2008\Projects\ConsoleAyo\Ayo" File="Ayo.cs" Line="211">Correct the spelling of 'Computerise' in member name 'AyoGame.ComputeriseTurnL2_PlayerVsComputer()' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2009-07-29 21:06:01Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error" Path="C:\Documents and Settings\web master\My Documents\Visual Studio 2008\Projects\ConsoleAyo\Ayo" File="Ayo.cs" Line="211">Remove the underscores from member name 'AyoGame.ComputeriseTurnL2_PlayerVsComputer()'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GeneratePlayerTurn(System.Int32)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2009-07-29 21:06:01Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="C:\Documents and Settings\web master\My Documents\Visual Studio 2008\Projects\ConsoleAyo\Ayo" File="Ayo.cs" Line="547">'AyoGame.GeneratePlayerTurn(int)' appears to have no upstream public or protected callers.</Issue>
+            </Message>
+            <Message Id="a" TypeName="RemoveUnusedLocals" Category="Microsoft.Performance" CheckId="CA1804" Status="Active" Created="2009-07-29 21:06:01Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Warning" Path="C:\Documents and Settings\web master\My Documents\Visual Studio 2008\Projects\ConsoleAyo\Ayo" File="Ayo.cs" Line="552">'AyoGame.GeneratePlayerTurn(int)' declares a variable, 'a', of type 'AyoGame', which is never used or is only assigned to. Use this variable or remove it.</Issue>
+            </Message>
+            <Message Id="arr" TypeName="RemoveUnusedLocals" Category="Microsoft.Performance" CheckId="CA1804" Status="Active" Created="2009-07-29 21:06:01Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Warning" Path="C:\Documents and Settings\web master\My Documents\Visual Studio 2008\Projects\ConsoleAyo\Ayo" File="Ayo.cs" Line="548">'AyoGame.GeneratePlayerTurn(int)' declares a variable, 'arr', of type 'int[]', which is never used or is only assigned to. Use this variable or remove it.</Issue>
+            </Message>
+            <Message Id="currentPlayer" TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801" Status="Active" Created="2009-07-29 21:06:01Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Warning" Path="C:\Documents and Settings\web master\My Documents\Visual Studio 2008\Projects\ConsoleAyo\Ayo" File="Ayo.cs" Line="547">Parameter 'currentPlayer' of 'AyoGame.GeneratePlayerTurn(int)' is never used. Remove the parameter or use it in the method body.</Issue>
+            </Message>
+            <Message Id="currentPlayer" TypeName="VariableNamesShouldNotMatchFieldNames" Category="Microsoft.Maintainability" CheckId="CA1500" Status="Active" Created="2009-07-29 21:06:01Z" FixCategory="NonBreaking">
+             <Issue Name="Parameter" Certainty="95" Level="Error" Path="C:\Documents and Settings\web master\My Documents\Visual Studio 2008\Projects\ConsoleAyo\Ayo" File="Ayo.cs" Line="547">'currentPlayer', a parameter declared in 'AyoGame.GeneratePlayerTurn(int)', has the same name as an instance field on the type. Change the name of one of these items.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GetNextHole(System.Int32)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2009-07-29 21:06:01Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Warning" Path="C:\Documents and Settings\web master\My Documents\Visual Studio 2008\Projects\ConsoleAyo\Ayo" File="Ayo.cs" Line="455">The 'this' parameter (or 'Me' in Visual Basic) of 'AyoGame.GetNextHole(int)' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GetPreviousHole(System.Int32)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2009-07-29 21:06:01Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="C:\Documents and Settings\web master\My Documents\Visual Studio 2008\Projects\ConsoleAyo\Ayo" File="Ayo.cs" Line="502">'AyoGame.GetPreviousHole(int)' appears to have no upstream public or protected callers.</Issue>
+            </Message>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2009-07-29 21:06:01Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Warning" Path="C:\Documents and Settings\web master\My Documents\Visual Studio 2008\Projects\ConsoleAyo\Ayo" File="Ayo.cs" Line="502">The 'this' parameter (or 'Me' in Visual Basic) of 'AyoGame.GetPreviousHole(int)' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#getThe6LeastAccumulatorWhenIPlayfromHole(Ayo.AyoGame)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2009-07-29 21:06:01Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Warning" Path="C:\Documents and Settings\web master\My Documents\Visual Studio 2008\Projects\ConsoleAyo\Ayo" File="Ayo.cs" Line="59">The 'this' parameter (or 'Me' in Visual Basic) of 'AyoGame.getThe6LeastAccumulatorWhenIPlayfromHole(AyoGame)' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GetTheGridIShouldPlayFromToMinimiseYourGainWhenYouPlay()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Minimise" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2009-07-29 21:06:01Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning" Path="C:\Documents and Settings\web master\My Documents\Visual Studio 2008\Projects\ConsoleAyo\Ayo" File="Ayo.cs" Line="89">Correct the spelling of 'Minimise' in member name 'AyoGame.GetTheGridIShouldPlayFromToMinimiseYourGainWhenYouPlay()' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message TypeName="UsePropertiesWhereAppropriate" Category="Microsoft.Design" CheckId="CA1024" Status="Active" Created="2009-07-29 21:06:01Z" FixCategory="Breaking">
+             <Issue Certainty="50" Level="Warning" Path="C:\Documents and Settings\web master\My Documents\Visual Studio 2008\Projects\ConsoleAyo\Ayo" File="Ayo.cs" Line="89">Change 'AyoGame.GetTheGridIShouldPlayFromToMinimiseYourGainWhenYouPlay()' to a property if appropriate.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="AssembliesShouldHaveValidStrongNames" Category="Microsoft.Design" CheckId="CA2210">
+   <Name>Assemblies should have valid strong names</Name>
+   <Description>Either the assembly has no strong name, an invalid one, or the strong name is valid only because of the computer configuration. The assembly should not be deployed in this state. The most common causes of this are: 1) The assembly's contents were modified after it was signed. 2) The signing process failed. 3) The assembly was delay-signed. 4) A registry key existed that allowed the check to pass (where it would not have otherwise).</Description>
+   <Resolution Name="NoStrongName">Sign {0} with a strong name key.</Resolution>
+   <Owner />
+   <Url>http://msdn2.microsoft.com/library/ms182127(VS.90).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">CriticalError</MessageLevel>
+   <File Name="DesignRules.dll" Version="9.0.0.0" />
+  </Rule>
+  <Rule TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811">
+   <Name>Avoid uncalled private code</Name>
+   <Description>There is uncalled code that is not externally visible and is not a known runtime entry point. If this violation fires in error, please send a problem report to the Visual Studio Code Analysis team.</Description>
+   <Resolution Name="Default">{0} appears to have no upstream public or protected callers.</Resolution>
+   <Owner />
+   <Url>http://msdn2.microsoft.com/library/ms182264(VS.90).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="PerformanceRules.dll" Version="9.0.0.0" />
+  </Rule>
+  <Rule TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709">
+   <Name>Identifiers should be cased correctly</Name>
+   <Description>Type, namespace, and member identifiers are Pascal-cased. Parameter identifiers are camel-cased. Two letter acronyms within these identifiers should be upper-cased, for example, use System.IO instead of System.Io. Acronyms of three or more letters should be Pascal-cased, for example, use System.Xml instead of System.XML. The pascal-casing convention capitalizes the first letter of each word, as in BackColor. The camel-casing convention formats the first letter of the first word in lowercase and capitalizes the first letter of all subsequent words, as in backgroundColor. Although it may be common practice for some two letter acronyms to not be fully capitalized, violations of this rule should not be excluded for this reason. For example, 'DbConnection', is common but incorrect; use DBConnection. A violation of this rule might be required for compatibility with existing, non-managed symbol schemes. In general, however, these symbols should not be visible outside the assembly that uses them.</Description>
+   <Resolution Name="Member">Correct the casing of '{0}' in member name {1} by changing it to '{2}'.</Resolution>
+   <Owner />
+   <Url>http://msdn2.microsoft.com/library/ms182240(VS.90).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="85">Error</MessageLevel>
+   <File Name="NamingRules.dll" Version="9.0.0.0" />
+  </Rule>
+  <Rule TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704">
+   <Name>Identifiers should be spelled correctly</Name>
+   <Description>The individual words that make up an identifier should not be abbreviated and should be spelled correctly. If this rule generates a false positive on a term that should be recognized, add the word to the FxCop custom dictionary.</Description>
+   <Resolution Name="Member">Correct the spelling of '{0}' in member name {1} or remove it entirely if it represents any sort of Hungarian notation.</Resolution>
+   <Owner />
+   <Url>http://msdn2.microsoft.com/library/bb264492(VS.90).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">CriticalWarning</MessageLevel>
+   <File Name="NamingRules.dll" Version="9.0.0.0" />
+  </Rule>
+  <Rule TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707">
+   <Name>Identifiers should not contain underscores</Name>
+   <Description>Do not use underscores when specifying identifiers. Some generated Visual Studio identifiers for applications contain underscore characters. Underscore characters should generally be avoided in public identifiers.</Description>
+   <Resolution Name="Member">Remove the underscores from member name {0}.</Resolution>
+   <Owner />
+   <Url>http://msdn2.microsoft.com/library/ms182245(VS.90).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="NamingRules.dll" Version="9.0.0.0" />
+  </Rule>
+  <Rule TypeName="MarkAssembliesWithClsCompliant" Category="Microsoft.Design" CheckId="CA1014">
+   <Name>Mark assemblies with CLSCompliantAttribute</Name>
+   <Description>Assemblies should explicitly state their CLS compliance using the CLSCompliant attribute. An assembly without this attribute is not CLS-compliant. Assemblies, modules, and types can be CLS-compliant even if some parts of the assembly, module, or type are not CLS-compliant. The following rules apply: 1) If the element is marked CLSCompliant, any noncompliant members must have the CLSCompliant attribute present with its argument set to false. 2) A comparable CLS-compliant alternative member must be supplied for each member that is not CLS-compliant.</Description>
+   <Resolution Name="Default">Mark {0} with CLSCompliant(true) because it exposes externally visible types.</Resolution>
+   <Owner />
+   <Url>http://msdn2.microsoft.com/library/ms182156(VS.90).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="DesignRules.dll" Version="9.0.0.0" />
+  </Rule>
+  <Rule TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822">
+   <Name>Mark members as static</Name>
+   <Description>Methods which do not access instance data or call instance methods can be marked as static (Shared in Visual Basic). After doing so, the compiler will emit non-virtual call sites to these members which will prevent a check at runtime for each call that ensures the current object pointer is non-null. This can result in a measurable performance gain for performance-sensitive code. In some cases, the failure to access the current object instance represents a correctness issue.</Description>
+   <Resolution Name="Default">The 'this' parameter (or 'Me' in Visual Basic) of {0} is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Resolution>
+   <Owner />
+   <Url>http://msdn2.microsoft.com/library/ms245046(VS.90).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Warning</MessageLevel>
+   <File Name="PerformanceRules.dll" Version="9.0.0.0" />
+  </Rule>
+  <Rule TypeName="PropertiesShouldNotReturnArrays" Category="Microsoft.Performance" CheckId="CA1819">
+   <Name>Properties should not return arrays</Name>
+   <Description>Properties that return arrays are prone to code inefficiencies. Consider using a collection or making this a method. See the design guidelines for more information.</Description>
+   <Resolution Name="Default">Change {0} to return a collection or make it a method.</Resolution>
+   <Owner />
+   <Url>http://msdn2.microsoft.com/library/0fss9skc(VS.90).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="50">Warning</MessageLevel>
+   <File Name="PerformanceRules.dll" Version="9.0.0.0" />
+  </Rule>
+  <Rule TypeName="RemoveUnusedLocals" Category="Microsoft.Performance" CheckId="CA1804">
+   <Name>Remove unused locals</Name>
+   <Description>Remove locals that are not used or are only assigned to in method implementations.</Description>
+   <Resolution Name="Default">{0} declares a variable, {1}, of type {2}, which is never used or is only assigned to. Use this variable or remove it.</Resolution>
+   <Owner />
+   <Url>http://msdn2.microsoft.com/library/ms182278(VS.90).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Warning</MessageLevel>
+   <File Name="PerformanceRules.dll" Version="9.0.0.0" />
+  </Rule>
+  <Rule TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801">
+   <Name>Review unused parameters</Name>
+   <Description>Review parameters in non-virtual methods that are not used in the method body to ensure no correctness exists around failure to access them. Unused parameters incur maintenance and performance costs. Sometimes a violation of this rule can point to an implementation bug in the method (i.e. the parameter should actually have been used in the method body). Exclude warnings of this rule if the parameter has to exist because of backward compatibility.</Description>
+   <Resolution Name="Default">Parameter {0} of {1} is never used. Remove the parameter or use it in the method body.</Resolution>
+   <Owner />
+   <Url>http://msdn2.microsoft.com/library/ms182268(VS.90).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Warning</MessageLevel>
+   <File Name="UsageRules.dll" Version="9.0.0.0" />
+  </Rule>
+  <Rule TypeName="UsePropertiesWhereAppropriate" Category="Microsoft.Design" CheckId="CA1024">
+   <Name>Use properties where appropriate</Name>
+   <Description>Properties should be used instead of Get/Set methods in most situations. Methods are preferable to properties in the following situations: the operation is a conversion, is expensive or has an observable side-effect; the order of execution is important; calling the member twice in succession creates different results; a member is static but returns a mutable value; or the member returns an array.</Description>
+   <Resolution Name="Default">Change {0} to a property if appropriate.</Resolution>
+   <Owner />
+   <Url>http://msdn2.microsoft.com/library/ms182181(VS.90).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="DesignRules.dll" Version="9.0.0.0" />
+  </Rule>
+  <Rule TypeName="VariableNamesShouldNotMatchFieldNames" Category="Microsoft.Maintainability" CheckId="CA1500">
+   <Name>Variable names should not match field names</Name>
+   <Description>Instance field and variable names should not be identical within the same scope.</Description>
+   <Resolution Name="Parameter">{0}, a parameter declared in {1}, has the same name as an instance field on the type. Change the name of one of these items.</Resolution>
+   <Owner />
+   <Url>http://msdn2.microsoft.com/library/ms182216(VS.90).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="MaintainabilityRules.dll" Version="9.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">Category</String>
+  <String Key="Certainty">Certainty</String>
+  <String Key="CollapseAll">Collapse All</String>
+  <String Key="CheckId">Check Id</String>
+  <String Key="Error">Error</String>
+  <String Key="Errors">error(s)</String>
+  <String Key="ExpandAll">Expand All</String>
+  <String Key="Help">Help</String>
+  <String Key="Line">Line</String>
+  <String Key="Messages">message(s)</String>
+  <String Key="LocationNotStoredInPdb">[Location not stored in Pdb]</String>
+  <String Key="Project">Project</String>
+  <String Key="Resolution">Resolution</String>
+  <String Key="Rule">Rule</String>
+  <String Key="RuleFile">Rule File</String>
+  <String Key="RuleDescription">Rule Description</String>
+  <String Key="Source">Source</String>
+  <String Key="Status">Status</String>
+  <String Key="Target">Target</String>
+  <String Key="Warning">Warning</String>
+  <String Key="Warnings">warning(s)</String>
+  <String Key="ReportTitle">Code Analysis Report</String>
+ </Localized>
+</FxCopReport>
